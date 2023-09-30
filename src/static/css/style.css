@@ -1,0 +1,59 @@
+/* Reset de estilos básicos */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del fondo oscuro */
+body {
+    background-color: #252525; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto */
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el cambio de modo */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 200px; /* Ajusta el tamaño de tu logo */
+}
+
+/* Títulos y texto */
+h1, h2 {
+    color: #f0a500; /* Color para los títulos */
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #f0a500; /* Color para los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(240, 45, 45);
+}
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
